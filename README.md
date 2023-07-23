@@ -1,3 +1,7 @@
+## 此视频是Nana关于docker使用教学demo
+
+参考链接：https://www.youtube.com/watch?v=6YisG2GcXaw&list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb&index=8
+
 ## demo app - developing with Docker
 
 This demo app shows a simple user profile app set up using 
@@ -35,7 +39,7 @@ Step 6: Start your nodejs application locally - go to `app` directory of project
 
     npm install 
     node server.js
-    
+
 Step 7: Access you nodejs application UI from browser
 
     http://localhost:3000
@@ -47,7 +51,7 @@ Step 7: Access you nodejs application UI from browser
 Step 1: start mongodb and mongo-express
 
     docker-compose -f docker-compose.yaml up
-    
+
 _You can access the mongo-express under localhost:8080 from your browser_
     
 Step 2: in mongo-express UI - create a new database "my-db"
@@ -58,7 +62,7 @@ Step 4: start node server
 
     npm install
     node server.js
-    
+
 Step 5: access the nodejs application from browser 
 
     http://localhost:3000
@@ -66,5 +70,5 @@ Step 5: access the nodejs application from browser
 #### To build a docker image from the application
 
     docker build -t my-app:1.0 .       
-    
+
 The dot "." at the end of the command denotes location of the Dockerfile.
